@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/grpName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Group Name"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/yel"
+        android:layout_width="131dp"
+        android:layout_height="124dp"
+        android:src="@drawable/yel"
+        android:layout_below="@id/grpName"
+        android:layout_marginTop="40dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grpName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:text="Marielle Vaay"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:fontFamily="casual"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/jheng"
+        android:layout_width="131dp"
+        android:layout_height="124dp"
+        android:src="@drawable/jheng"
+        android:layout_below="@id/yel"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:text="Janezen Dagami"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginStart="40dp"
+        android:fontFamily="casual"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pia"
+        android:layout_width="131dp"
+        android:layout_height="124dp"
+        android:src="@drawable/pia"
+        android:layout_below="@id/jheng"/>
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jheng"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:text="Sophia Quizon"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:fontFamily="casual"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/yael"
+        android:layout_width="131dp"
+        android:layout_height="124dp"
+        android:src="@drawable/yael"
+        android:layout_below="@id/pia"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pia"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:text="Yael Cabrales"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginStart="40dp"
+        android:fontFamily="casual"/>
+
+
+</RelativeLayout>
