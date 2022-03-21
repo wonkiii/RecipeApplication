@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Recipe Diary</string>
+    <string name="app_name">Simple Recipe</string>
     <string name="recipeName">Recipe Name</string>
     <string name="ingredients">Ingredients</string>
     <string name="info">Info</string>
