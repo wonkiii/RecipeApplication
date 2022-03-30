@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".About"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:fontFamily="casual">
 
     <TextView
         android:id="@+id/grpName"
@@ -21,22 +22,35 @@
         android:id="@+id/yel"
         android:layout_width="131dp"
         android:layout_height="124dp"
-        android:src="@drawable/yel"
+        android:src="@drawable/yael"
         android:layout_below="@id/grpName"
         android:layout_marginTop="40dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="65dp" />
 
     <TextView
+        android:id="@+id/marielle"
         android:layout_width="226dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/grpName"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="40dp"
-        android:text="Marielle Vaay"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="casual"
+        android:text="Yael Cabrales"
         android:textColor="@color/black"
-        android:textSize="24sp"
-        android:fontFamily="casual"/>
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/marielle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="casual"
+        android:text="Lead Programmer"
+        android:textColor="#808080" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/jheng"
@@ -47,16 +61,28 @@
         android:layout_alignParentEnd="true"/>
 
     <TextView
-        android:layout_width="226dp"
+        android:id="@+id/nmJheng"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/yel"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="casual"
         android:text="Janezen Dagami"
         android:textColor="@color/black"
-        android:textSize="24sp"
-        android:layout_marginStart="40dp"
-        android:fontFamily="casual"/>
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nmJheng"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="casual"
+        android:text="Programmer"
+        android:textColor="#808080" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/pia"
@@ -66,35 +92,59 @@
         android:layout_below="@id/jheng"/>
 
     <TextView
+        android:id="@+id/nmpia"
         android:layout_width="226dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/jheng"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:text="Sophia Quizon"
         android:textColor="@color/black"
         android:textSize="24sp"
+        android:fontFamily="casual"/>
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nmpia"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="Programmer"
+        android:textColor="#808080"
         android:fontFamily="casual"/>
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/yael"
         android:layout_width="131dp"
         android:layout_height="124dp"
-        android:src="@drawable/yael"
+        android:src="@drawable/yel"
         android:layout_below="@id/pia"
         android:layout_alignParentEnd="true"/>
 
     <TextView
-        android:layout_width="226dp"
+        android:id="@+id/nmyel"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/pia"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp"
-        android:text="Yael Cabrales"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="casual"
+        android:text="Marielle Vaay"
         android:textColor="@color/black"
-        android:textSize="24sp"
-        android:layout_marginStart="40dp"
-        android:fontFamily="casual"/>
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nmyel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="casual"
+        android:text="Programmer"
+        android:textColor="#808080" />
 
 
 </RelativeLayout>
