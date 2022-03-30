@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:gravity="center"
-        android:text="Group Name"
+        android:text="Group 14"
         android:textColor="@color/black"
         android:textSize="30sp" />
 
